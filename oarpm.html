@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OARPM</title>
+    <link rel="stylesheet" href="oarpm.css">
+</head>
+
+<body>
+    <header>
+        <h1>OARPM</h1>
+        <p>Will you not revive us again, that your people may rejoice in you?<br>Psalm 85:6</p>
+    </header>
+    <main>
+        <div class="copy-container">
+            <div class="container">
+                <div id="textToCopy" class="text-box" onclick="copyToClipboard()">Click Here to copy tomorrow's Portion.
+                </div>
+                <button class="copy-btn" onclick="copyToClipboard()">
+                    <img src="https://img.icons8.com/ios-glyphs/30/ffffff/copy.png" alt="Copy Icon" />
+                    Copy
+                </button>
+            </div>
+        </div>
+
+        <div class="bible-portion-container">
+            <div class="bible-portion">
+                <h4>Today's Bible Portion</h4>
+                <p id="oldTestament"></p>
+                <p id="newTestament"></p>
+            </div>
+        </div>
+
+
+        <div class="section-container">
+            <div class="section">
+                <h3>Today's District</h3>
+                <p id="district" class="data"></p>
+            </div>
+            <div class="section">
+                <h3>Today's State</h3>
+                <p id="state" class="data"></p>
+            </div>
+            <div class="section">
+                <h3>Today's Country</h3>
+                <div>
+                    <p id="country" class="data"></p>
+                    <p id="capital" class="data"></p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Today's Continent</h3>
+                <p id="continent" class="data"></p>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="oarpm.js"></script>
+</body>
+
+</html>
