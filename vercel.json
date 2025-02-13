@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/oarpm.html", "permanent": true }
+  ]
+}
