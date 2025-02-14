@@ -1,3 +1,7 @@
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function copyToClipboard() {
     const copy_btn = document.getElementsByClassName("copy-btn");
     navigator.clipboard.writeText(tomorrows_copy)
@@ -416,7 +420,7 @@ const todays_details = details[months[parseInt(today_month) - 1]][today_day];
 
 const tomorrows_details = details[months[parseInt(tomorrow_month) - 1]][tomorrow_day]
 
-const tomorrows_copy = `Good Morning Everyone. Today's (${months[parseInt(tomorrow_month) - 1]} ${tomorrow_day}) portion
+const tomorrows_copy = `Good Morning Everyone. Today's (${capitalize(months[parseInt(tomorrow_month) - 1])} ${tomorrow_day}) portion
 ${tomorrows_details['bible_portion'][0]}
 ${tomorrows_details['bible_portion'][1]}
 
