@@ -76,7 +76,7 @@ const details = {
         },
         "5": {
             "bible_portion": [
-                "Good morning everyone. Today's (November 5) portion Jeremiah 36:5-38:1",
+                "Jeremiah 36:5-38:1",
                 "Hebrews 12:28-13:21"
             ],
             "district": "Virudhunagar",
@@ -258,7 +258,7 @@ const details = {
         },
         "19": {
             "bible_portion": [
-                "Ezekiel 11:25-14:4)",
+                "Ezekiel 11:25-14:4",
                 "2 Peter 3:11-1 John 1:9"
             ],
             "district": "Madurai",
@@ -865,5 +865,6 @@ state.innerText = todays_details['state'];
 country.innerText = todays_details['country']['name'];
 capital.innerText = `Capital - ${todays_details['country']['capital']}`;
 continent.innerText = todays_details['continent'];
+
 
 
